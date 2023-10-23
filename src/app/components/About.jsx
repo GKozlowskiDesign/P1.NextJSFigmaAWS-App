@@ -2,8 +2,8 @@ import React from "react";
 const About = () => {
   return (
         <section>
-               <div name="services" className='flex flex-col w-full p-8 pb-10 bg-white'>
-                  <div className="grid grid-cols-2 border-t-2 border-black">
+               <div name="services" className='flex flex-col w-full p-6 pb-10 bg-white'>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2border-t-2 border-black">
                     {/* grid cols 1 & 2 */}
                     <div className="col-span-1 pt-10">
                     <h1 className="text-4xl pb-4">Getting Started</h1>
@@ -20,11 +20,13 @@ const About = () => {
                     {/* grid cols 3 */}
                     <div  className="col-span-1 pt-10 p-2">
                       <div className="flex items-center justify-center">
+                        <section className="invisible md:visible md:flex md:w-full w-1/12">
                         <img
-                        src="https://images.pexels.com/photos/18318818/pexels-photo-18318818/free-photo-of-statue-of-liberty-at-night.png?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                        className="items-center w-full sm:w-full lg:w-10/12 rounded-md lg:ml-20 border border-gray-500 shadow-xl mx-auto"
+                        src="https://images.pexels.com/photos/13058161/pexels-photo-13058161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        className="items-center w-full sm:w-full lg:w-9/12 rounded-md lg:ml-20 border border-gray-500 shadow-xl mx-auto"
                         alt="Statue Of Liberty"
                         />
+                        </section>
                       </div>                    
                     </div>
 
