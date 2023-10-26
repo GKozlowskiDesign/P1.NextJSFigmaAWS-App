@@ -2,23 +2,21 @@ import React from "react";
 import Image from 'next/image';
 const Hero = () => {
   return (
-        <div className="grid grid-col-1 items-center pb-64 pt-48 rounded-t-3xl border-2 bg-black shadow-2xl justify-center">
-               <div className="lg:hidden circle rounded-full mx-auto"></div>
-
+        <div className="grid grid-col-1 items-center h-screen pt-36 md:h-max md:pt-48 md:pb-96 mt-0 rounded-3xl border-8 border-white bg-gradient-to-b from-black via-gray-950 to-indigo-900  justify-center">
                 <div className="justify-center flex items-center">
-                        <Image
-                        className="shadow-xl p-6"
-                        src="/favicon.png"
-                        alt="MVoT Logo"
-                        width={450}
-                        height={40}
-                        priority
-                        />
-                </div>
-                <div className="lg:hidden circle rounded-full justify-end"></div>
-            
-
-      
+                        <div className="circle absolute"></div>
+                                <Image
+                                className="p-8 mx-auto pt-40 mb-14 sm:pt-64 md:pt-48"
+                                src="/favicon.png"
+                                alt="Metaverse-Of-Things"
+                                width={700}
+                                height={40}
+                                priority
+                                />
+                        </div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 md:pt-3 mx-auto text-white hover:text-indigo-700 duration-700 cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                </svg>
         </div>
     )
 };

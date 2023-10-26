@@ -4,8 +4,8 @@ import React from "react";
 const Footer = () => {
     return (
         
-      <footer className="bg-black text-white py-8 pt-40 p-4">
-        <div className="container mx-auto flex justify-between items-center pb-40">
+      <footer className="bg-black text-white py-2 pt-96 p-1">
+        <div className="container mx-auto flex justify-between items-center pb-40 p-3">
           <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-4">
             <h2 className="text-xl font-bold">Company</h2>
             <ul className="mt-2">
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="container mx-auto items-center justify-center">
+        <div className="container mx-auto items-center justify-center p-1">
             <div className="border-t">
                 <div className="container mx-auto flex justify-between items-center pb-20">
                         <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-4">

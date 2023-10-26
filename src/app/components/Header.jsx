@@ -1,7 +1,7 @@
 import React from "react";
 const Header = () => {
   return (
-        <section className="bg-white h-4">
+        <section className="bg-white pt-3">
                 <div></div>
         </section>
     )

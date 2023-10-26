@@ -13,11 +13,10 @@ body {
 
 }
 
-{/* .circle {
+.circle {
   width: 800px;
   height: 200px;
-  background: linear-gradient(to bottom, #e66509 30%,  #0ec40e 30%,  #6c2fd5 50%);
-  filter: blur(80px);
+  background: linear-gradient(to bottom, #000000 50%,  #9501ff 90%,  #6c2fd5 80%);
+  filter: blur(160px);
 }
 
-*/}
