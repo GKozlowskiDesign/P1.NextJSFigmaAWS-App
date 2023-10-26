@@ -2,7 +2,7 @@ import React from "react";
 const About = () => {
   return (
         <section>
-              <div name="services" className='flex flex-col w-full p-10 pb-10 bg-white'>
+              <div id="about" className='flex flex-col w-full p-10 pb-10 bg-white'>
                <div className='border-t mb-2 border-black'></div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2border-t-2 border-black">
@@ -16,8 +16,8 @@ const About = () => {
                             <p className="text-xs lg:text-md pt-2 tracking-wider">We are committed to pushing the boundaries of blockchain's capabilities, constantly innovating, and providing practical solutions that empower people and organizations. 
                             With a vision of a future where blockchain is seamlessly woven into the daily lives of individuals, MVoT is dedicated to leaving a lasting, positive impact on the world, ushering in an era of trust, efficiency, and inclusivity.
                             </p>
-                          <h3 className="underline pt-6">Read Our Litepaper</h3>
-                          <h3 className="underline pt-2">Speak to our Ai</h3>
+                          <h3 className="underline pt-6 cursor-pointer">Read Our Litepaper</h3>
+                          <h3 className="underline pt-2 cursor-pointer">Speak to our Ai</h3>
 
                       </div>
                     {/* grid cols 3 */}
@@ -27,7 +27,7 @@ const About = () => {
                           {/* external image */}
                           <img
                           src="https://images.pexels.com/photos/13058161/pexels-photo-13058161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                          className="items-center w-full sm:w-full lg:w-10/12 rounded-md lg:ml-20 border border-gray-500 shadow-xl mx-auto"
+                          className="items-center w-full sm:w-full lg:w-10/12 rounded-md lg:ml-20 border border-gray-900 shadow-2xl mx-auto"
                           alt="Statue Of Liberty"
                           />
                           </section>
