@@ -47,10 +47,17 @@ Your Next.js web application should now be accessible at http://localhost:3000.
 ```
 ## Design with Figma
 Use Figma to create your UI/UX design. This project provides a smooth transition from Figma designs to actual development. Import your Figma designs as needed.
-![Screen Shot 2023-10-22 at 2 45 14 PM](https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/b1666d0e-aefa-44f2-b563-1b5bd86358e7)
+
+<img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/32298a76-2c30-457d-ab3f-5ee2572fa01a" width="30%" align="left" />
+
+
 
 ## Develop with Next.js
 Next.js is used as the web framework for this project. You can write your React components and add functionality as needed. Customize the project to match your Figma design.
+
+
+**Finished Product:**
+<img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/acbc2d9d-a1e0-4614-b84d-9223acc2064b" width="30%" align="left" />
 
 
 ## Deploy with AWS
