@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 export default function Home() {
   return (
-    <div className="w-full overflow-hidden bg-white">
+    <div className="w-full overflow-hidden bg-gray-300 pt-2">
       <div>
       <Header />
       </div>
