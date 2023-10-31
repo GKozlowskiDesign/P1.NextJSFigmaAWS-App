@@ -28,9 +28,9 @@ const Footer = () => {
           <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-4">
             <h2 className="text-xl font-bold">Community</h2>
             <ul className="mt-2">
-              <li className="mb-2"><a className="hover:text-violet-400"href="#">Forums</a></li>
-              <li className="mb-2"><a className="hover:text-violet-400" href="#">Partners</a></li>
-              <li className="mb-2"><a className="hover:text-violet-400" href="#">Developers</a></li>
+              <li className="mb-2"><a className="hover:text-violet-400 text-sm"href="#">Forums</a></li>
+              <li className="mb-2"><a className="hover:text-violet-400 text-sm" href="#">Partners</a></li>
+              <li className="mb-2"><a className="hover:text-violet-400 text-sm" href="#">Developers</a></li>
             </ul>
           </div>
         </div>
