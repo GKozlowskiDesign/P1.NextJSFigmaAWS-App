@@ -13,10 +13,3 @@ body {
 
 }
 
-.circle {
-  width: 800px;
-  height: 200px;
-  background: linear-gradient(to bottom, #000000 50%,  #9501ff 90%,  #6c2fd5 80%);
-  filter: blur(160px);
-}
-
