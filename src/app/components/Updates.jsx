@@ -41,35 +41,35 @@ const Updates = () => {
                 </div>
                     <div className='cols-span-1 mt-12 w-11/12 pl-6'>
                                         <Accordion variant="splitted font-mono">
-                                        <AccordionItem key="1" aria-label="Accordion 1" title="Investors" className='text-black font-mono bg-white p-1 mb-4 rounded-md
+                                        <AccordionItem key="1" aria-label="Accordion 1" title="Investors" className='text-black font-mono bg-green-400 p-1 mb-4 rounded-md
                                           border-t-4 border-t-black 
                                           border-r-2 border-r-black
                                           border-b-2 border-b-black
                                           border-l-2 border-l-black
-                                          hover:bg-indigo-600
+                                          hover:bg-green-600
                                           shadow-2xl
 
                                           '>
                                     
                                             {content}
                                         </AccordionItem>
-                                        <AccordionItem key="2" aria-label="Accordion 2" title="Developers"  className='text-black font-mono bg-white p-1 mb-4 rounded-md
+                                        <AccordionItem key="2" aria-label="Accordion 2" title="Developers"  className='text-black font-mono bg-green-400 p-1 mb-4 rounded-md
                                         border-t-4 border-t-black 
                                         border-r-2 border-r-black
                                         border-b-2 border-b-black
                                         border-l-2 border-l-black
-                                        hover:bg-indigo-600
+                                        hover:bg-green-600
                                         shadow-2xl
 
                                         '>
                                         {content}
                                         </AccordionItem>
-                                        <AccordionItem key="3" aria-label="Accordion 3" title="Business" className='text-black font-mono bg-white p-1 mb-2 rounded-md
+                                        <AccordionItem key="3" aria-label="Accordion 3" title="Business" className='text-black font-mono bg-green-400 p-1 mb-2 rounded-md
                                         border-t-4 border-t-black 
                                         border-r-2 border-r-black
                                         border-b-2 border-b-black
                                         border-l-2 border-l-black
-                                        hover:bg-indigo-600
+                                        hover:bg-green-600
                                         shadow-2xl
 
 
@@ -81,109 +81,61 @@ const Updates = () => {
                 </div>
                 </div>    
 
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center justify-center mx-auto gap-10 w-11/12 pt-10  pb-20 bg-transparent border-black ">
-                <div className="cols-span-1 relative group w-11/12 md:w-full bg-transparent border border-black hover:bg-gray-800 hover-blur rounded-lg duration-1000 cursor-pointer mb-6 mx-auto">
-                            <Image
-                                className='rounded-lg border-t-2 border-black'
-                                width='500'
-                                height='500'
-                                src="/assets/Services_Card.png"
-                                alt="News Card 01"
-                            /> 
-                            <div class="absolute bottom-0 left-0 right-0 px-4 py-4 rounded-md rounded-t-xl bg-white border-t-4 border-black hover:bg-gray-200">
-                            <h3 class="text-lg text-black font-mono text-center justify-center flex">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center justify-center mx-auto gap-10 w-11/12 pt-40 mt-20 pb-20 bg-transparent border-black ">
+                <div className="cols-span-1 relative group w-full hover-blur rounded-lg duration-1000 cursor-pointer mb-28 mx-auto">
+                        <div class="absolute bottom-0 left-0 right-0 px-4 py-4  pt-20 pb-20 rounded-md rounded-t-xl bg-indigo-900 border-t-4 border border-black hover:bg-indigo-200">
+                            <h3 class="text-md md:text-lg text-indigo-300 font-mono text-center justify-center flex">
                                     Business News</h3>
-                                    <p class="mt-2 text-xs text-black text-center justify-center flex">Sept 12, 2023</p>
+                                    <p class="mt-2 text-xs text-white text-center justify-center flex">Sept 12, 2023</p>
                             </div>
                         </div>
-
-                        <div className="cols-span-1 relative group w-11/12 md:w-full bg-transparent border border-black hover:bg-gray-800 hover-blur rounded-lg duration-1000 cursor-pointer mb-6 mx-auto">
-                            <Image
-                                className='rounded-lg border-t-2 border-black'
-                                width='500'
-                                height='500'
-                                src="/assets/Services_Card.png"
-                                alt="News Card 02"
-                            />
-                            <div class="absolute bottom-0 left-0 right-0 px-4 py-4 rounded-md rounded-t-xl bg-white border-t-4 border-black hover:bg-gray-200">
-                            <h3 class="text-lg text-black font-mono text-center justify-center flex">
-                                    Investor News</h3>
-                                    <p class="mt-2 text-xs text-black text-center justify-center flex">Aug 22, 2023</p>
-                            </div>
-                        </div>
-
-                        <div className="cols-span-1 relative group w-11/12 md:w-full bg-transparent border border-black hover:bg-gray-800 hover-blur rounded-lg duration-1000 cursor-pointer mb-6 mx-auto">
-                            <Image
-                                className='rounded-lg border-t-2 border-black'
-                                width='500'
-                                height='500'
-                                src="/assets/Services_Card.png"
-                                alt="News Card 03"
-                            /> 
-                            <div class="absolute bottom-0 left-0 right-0 px-4 py-4 rounded-md rounded-t-xl bg-white border-t-4 border-black hover:bg-gray-200">
-                            <h3 class="text-lg text-black font-mono text-center justify-center flex">
+                        <div className="cols-span-1 relative group w-full hover-blur rounded-lg duration-1000 cursor-pointer mb-28 mx-auto">
+                        <div class="absolute bottom-0 left-0 right-0 px-4 py-4  pt-20 pb-20 rounded-md rounded-t-xl bg-indigo-900 border-t-4 border border-black hover:bg-indigo-200">
+                            <h3 class="text-md md:text-lg text-indigo-300 font-mono text-center justify-center flex">
                                     Business News</h3>
-                                    <p class="mt-2 text-xs text-black text-center justify-center flex">July 20, 2023</p>
+                                    <p class="mt-2 text-xs text-white text-center justify-center flex">Sept 12, 2023</p>
                             </div>
                         </div>
-
-                        <div className="cols-span-1 relative group w-11/12 md:w-full bg-transparent border border-black hover:bg-gray-800 hover-blur rounded-lg duration-1000 cursor-pointer mb-6 mx-auto">
-                            <Image
-                                className='rounded-lg border-t-2 border-black'
-                                width='500'
-                                height='500'
-                                src="/assets/Services_Card.png"
-                                alt="News Card 04"
-                            /> 
-                            <div class="absolute bottom-0 left-0 right-0 px-4 py-4 rounded-md rounded-t-xl bg-white border-t-4 border-black hover:bg-gray-200">
-                            <h3 class="text-lg text-black font-mono text-center justify-center flex">
-                                    Investor News</h3>
-                                    <p class="mt-2 text-xs text-black text-center justify-center flex">June 15, 2023</p>
-                            </div>
-                        </div>
-
-                        <div className="cols-span-1 relative group w-11/12 md:w-full bg-transparent border border-black hover:bg-gray-800 hover-blur rounded-lg duration-1000 cursor-pointer mb-6 mx-auto">
-                            <Image
-                                className='rounded-lg border-t-2 border-black'
-                                width='500'
-                                height='500'
-                                src="/assets/Services_Card.png"
-                                alt="News Card 04"
-                            /> 
-                            <div class="absolute bottom-0 left-0 right-0 px-4 py-4 rounded-md rounded-t-xl bg-white border-t-4 border-black hover:bg-gray-200">
-                            <h3 class="text-lg text-black font-mono text-center justify-center flex">
-                                    Developer News</h3>
-                                    <p class="mt-2 text-xs text-black text-center justify-center flex">May 14, 2023</p>
-                            </div>
-                        </div>
-
-                        <div className="cols-span-1 relative group w-11/12 md:w-full bg-transparent border border-black hover:bg-gray-800 hover-blur rounded-lg duration-1000 cursor-pointer mb-6 mx-auto">
-                            <Image
-                                className='rounded-lg border-t-2 border-black'
-                                width='500'
-                                height='500'
-                                src="/assets/Services_Card.png"
-                                alt="News Card 04"
-                            /> 
-                            <div class="absolute bottom-0 left-0 right-0 px-4 py-4 rounded-md rounded-t-xl bg-white border-t-4 border-black hover:bg-gray-200">
-                            <h3 class="text-lg text-black font-mono text-center justify-center flex">
+                        <div className="cols-span-1 relative group w-full hover-blur rounded-lg duration-1000 cursor-pointer mb-28 mx-auto">
+                        <div class="absolute bottom-0 left-0 right-0 px-4 py-4  pt-20 pb-20 rounded-md rounded-t-xl bg-indigo-900 border-t-4 border border-black hover:bg-indigo-200">
+                            <h3 class="text-md md:text-lg text-indigo-300 font-mono text-center justify-center flex">
                                     Business News</h3>
-                                    <p class="mt-2 text-xs text-black text-center justify-center flex">April 22, 2023</p>
+                                    <p class="mt-2 text-xs text-white text-center justify-center flex">Sept 12, 2023</p>
                             </div>
                         </div>
-
-                        <div className="cols-span-1 relative group w-11/12 md:w-full bg-transparent border border-black hover:bg-gray-800 hover-blur rounded-lg duration-1000 cursor-pointer mb-6 mx-auto">
-                            <Image
-                                className='rounded-lg border-t-2 border-black'
-                                width='500'
-                                height='500'
-                                src="/assets/Services_Card.png"
-                                alt="News Card 04"
-                            /> 
-                            <div class="absolute bottom-0 left-0 right-0 px-4 py-4 rounded-md rounded-t-xl bg-white border-t-4 border-black hover:bg-gray-200">
-                                <h3 class="text-lg text-black font-mono text-center justify-center flex">
+                        <div className="cols-span-1 relative group w-full hover-blur rounded-lg duration-1000 cursor-pointer mb-28 mx-auto">
+                        <div class="absolute bottom-0 left-0 right-0 px-4 py-4  pt-20 pb-20 rounded-md rounded-t-xl bg-indigo-900 border-t-4 border border-black hover:bg-indigo-200">
+                            <h3 class="text-md md:text-lg text-indigo-300 font-mono text-center justify-center flex">
                                     Business News</h3>
-                                    <p class="mt-2 text-xs text-black text-center justify-center flex">March 24, 2023</p>
+                                    <p class="mt-2 text-xs text-white text-center justify-center flex">Sept 12, 2023</p>
+                            </div>
+                        </div>
+                        <div className="cols-span-1 relative group w-full hover-blur rounded-lg duration-1000 cursor-pointer mb-28 mx-auto">
+                        <div class="absolute bottom-0 left-0 right-0 px-4 py-4  pt-20 pb-20 rounded-md rounded-t-xl bg-indigo-900 border-t-4 border border-black hover:bg-indigo-200">
+                            <h3 class="text-md md:text-lg text-indigo-300 font-mono text-center justify-center flex">
+                                    Business News</h3>
+                                    <p class="mt-2 text-xs text-white text-center justify-center flex">Sept 12, 2023</p>
+                            </div>
+                        </div>
+                        <div className="cols-span-1 relative group w-full hover-blur rounded-lg duration-1000 cursor-pointer mb-28 mx-auto">
+                        <div class="absolute bottom-0 left-0 right-0 px-4 py-4  pt-20 pb-20 rounded-md rounded-t-xl bg-indigo-900 border-t-4 border border-black hover:bg-indigo-200">
+                            <h3 class="text-md md:text-lg text-indigo-300 font-mono text-center justify-center flex">
+                                    Business News</h3>
+                                    <p class="mt-2 text-xs text-white text-center justify-center flex">Sept 12, 2023</p>
+                            </div>
+                        </div>
+                        <div className="cols-span-1 relative group w-full hover-blur rounded-lg duration-1000 cursor-pointer mb-28 mx-auto">
+                        <div class="absolute bottom-0 left-0 right-0 px-4 py-4  pt-20 pb-20 rounded-md rounded-t-xl bg-indigo-900 border-t-4 border border-black hover:bg-indigo-200">
+                            <h3 class="text-md md:text-lg text-indigo-300 font-mono text-center justify-center flex">
+                                    Business News</h3>
+                                    <p class="mt-2 text-xs text-white text-center justify-center flex">Sept 12, 2023</p>
+                            </div>
+                        </div>
+                        <div className="cols-span-1 relative group w-full hover-blur rounded-lg duration-1000 cursor-pointer mb-28 mx-auto">
+                        <div class="absolute bottom-0 left-0 right-0 px-4 py-4  pt-20 pb-20 rounded-md rounded-t-xl bg-indigo-900 border-t-4 border border-black hover:bg-indigo-200">
+                            <h3 class="text-md md:text-lg text-indigo-300 font-mono text-center justify-center flex">
+                                    Business News</h3>
+                                    <p class="mt-2 text-xs text-white text-center justify-center flex">Sept 12, 2023</p>
                             </div>
                         </div>
                     </div>

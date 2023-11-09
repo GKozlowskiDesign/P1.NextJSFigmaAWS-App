@@ -49,21 +49,7 @@ export default function Header() {
          />                        
        </NavbarBrand>
 
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Company
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link href="#" color="foreground" aria-current="page">
-          Community
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-          Resources
-          </Link>
-        </NavbarItem>
+        
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
