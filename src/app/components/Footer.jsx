@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 const Footer = () => {
     return (
         
-      <footer name="footer" className="bg-gradient-to-b from-black via-gray-850 to-indigo-900 text-white py-2 pt-64 rounded-3xl border-t-4">
+      <footer name="footer" className="bg-gradient-to-b from-black via-gray-850 to-indigo-900 text-white py-2 pt-64 rounded-t-3xl border-t-4">
         <div className="container mx-auto flex justify-between items-center mb-40 p-4">
           <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-4">
             <h2 className="text-xl font-mono">Company</h2>
@@ -59,28 +59,28 @@ const Footer = () => {
           </div>
      
 
-        <div className="w-full h-px bg-white  my-4 opacity-50"></div>
-        <div className="w-full h-px bg-white  my-4 opacity-50"></div>
-        <div className="w-full h-px bg-white  my-4 opacity-60"></div>
-        <div className="w-full h-px bg-white  my-4 opacity-60"></div>
-        <div className="w-full h-0.5 bg-white  my-4 opacity-60"></div>
-        <div className="w-full h-0.5 bg-white  my-4 opacity-60"></div>
-        <div className="w-full h-0.5 bg-white  my-4 opacity-60"></div>
-        <div className="w-full h-0.5 bg-white  my-4 opacity-70"></div>
-        <div className="w-full h-0.5 bg-white my-4 opacity-70"></div>
-        <div className="w-full h-0.5 bg-white  my-4 opacity-80"></div>
-        <div className="w-full h-1 bg-white  my-4 opacity-80"></div>
-        <div className="w-full h-1 bg-white  my-4 opactiy-80"></div>
-        <div className="w-full h-1 bg-white  my-4 opacity-90"></div>
-        <div className="w-full h-1.5 bg-white my-4 opacity-90"></div>
-        <div className="w-full h-1.5 bg-white  my-4 opacity-90"></div>
-        <div className="w-full h-2 bg-white  my-4 opacity-90"></div>
-        <div className="w-full h-2.5 bg-white  my-4 opacity-100"></div>
-        <div className="w-full h-3 bg-white my-4 opacity-100"></div>
-        <div className="w-full h-3.5 bg-white my-4 opacity-100"></div>
-        <div className="w-full h-4 bg-white  my-4 opacity-100"></div>
-        <div className="w-full h-4.5 bg-white opacity-100"></div>
-        <div className="w-full h-5 bg-white opacity-100"></div>
+        <div className="w-full h-px bg-indigo-600  my-4 opacity-50"></div>
+        <div className="w-full h-px bg-indigo-600  my-4 opacity-50"></div>
+        <div className="w-full h-px bg-indigo-600  my-4 opacity-60"></div>
+        <div className="w-full h-px bg-indigo-600  my-4 opacity-60"></div>
+        <div className="w-full h-0.5 bg-indigo-600  my-4 opacity-60"></div>
+        <div className="w-full h-0.5 bg-indigo-600  my-4 opacity-60"></div>
+        <div className="w-full h-0.5 bg-indigo-600  my-4 opacity-60"></div>
+        <div className="w-full h-0.5 bg-indigo-600  my-4 opacity-70"></div>
+        <div className="w-full h-0.5 bg-indigo-600 my-4 opacity-70"></div>
+        <div className="w-full h-0.5 bg-indigo-600  my-4 opacity-80"></div>
+        <div className="w-full h-1 bg-indigo-600  my-4 opacity-80"></div>
+        <div className="w-full h-1 bg-indigo-600  my-4 opactiy-80"></div>
+        <div className="w-full h-1 bg-indigo-600  my-4 opacity-90"></div>
+        <div className="w-full h-1.5 bg-indigo-600 my-4 opacity-90"></div>
+        <div className="w-full h-1.5 bg-indigo-600  my-4 opacity-90"></div>
+        <div className="w-full h-2 bg-indigo-600  my-4 opacity-90"></div>
+        <div className="w-full h-2.5 bg-indigo-600  my-4 opacity-100"></div>
+        <div className="w-full h-3 bg-indigo-600 my-4 opacity-100"></div>
+        <div className="w-full h-3.5 bg-indigo-600 my-4 opacity-100"></div>
+        <div className="w-full h-4 bg-indigo-600  my-4 opacity-100"></div>
+        <div className="w-full h-4.5 bg-indigo-600 opacity-100"></div>
+        <div className="w-full h-5 bg-indigo-600 opacity-100"></div>
       </footer>
     );
   };

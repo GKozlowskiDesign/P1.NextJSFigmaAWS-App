@@ -32,7 +32,7 @@ export default function Header() {
   ];
 
   return (
-      <div className="grid grid-cols-3 w-full">
+      <div name="header" className="grid grid-cols-3 w-full">
       <Navbar className="w-screen max-h-full p-6" onMenuOpenChange={setIsMenuOpen} maxWidth="full">
 
       <div className="cols-span-1 grid justify-items-start">

@@ -9,7 +9,7 @@ const Services = () => {
                         Powerful Web3 PaaS LaunchPad Tooling</h1>
                     </div> 
                     <div className="grid grid-cols-4">
-                            <div class="p-2 md:p-5 lg:p-10 lg:pb-28 lg:pt-28 md:pb-28  overflow-hidden shadow-2xl rounded-md items-center justify-center flex border-t-4 border-r-2 border-y-2 bg-green-400  hover:bg-green-600 cursor-pointer border-black">
+                    <div class="p-2 md:p-5 lg:p5 xl:p-5 md:pb-28 md:pt-28 overflow-hidden shadow-2xl  rounded-md items-center justify-center flex border-t-4 border-r-2 border-y-2 bg-green-400 hover:bg-green-600 cursor-pointer border-black">
                             <Image
                                 className='mx-auto w-2/4 sm:w-2/4 md:w-1/4 pt-6 pb-6'
                                 width='100'
