@@ -19,16 +19,15 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
+    "Get Started",
+    "Mission",
+    "Vision",
+    "Team",
+    "Ecosystem",
+    "Services",
+    "Devices",
+    "Resources",
+    "Press Releases",
   ];
 
   return (
@@ -40,7 +39,7 @@ export default function Header() {
        
        <NavbarBrand className="items-center justify-center">
        <Image
-         className="items-center p-4"
+         className="items-center p-1"
          src="/assets/MVoTLogo.png"
          alt="Metaverse-Of-Things"
          width={100}
@@ -63,7 +62,7 @@ export default function Header() {
               color={
                 index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
               }
-              className="w-full text-white"
+              className="w-full text-black"
               href="#"
               size="full"
             >

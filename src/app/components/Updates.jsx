@@ -11,7 +11,7 @@ const Updates = () => {
 
 
   return (
-        <section className="bg-white">            
+        <section className="bg-gradient-to-b from-green-200 via-green-100 to-white">            
 
                 <div name="services" className='flex flex-col  pt-20 pb-10 border-black'>
                 <h1 className='justify-center text-4xl lg:text-5xl p-8 pt-10 pb-4 text-black font-mono'>Business Updates</h1>
