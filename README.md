@@ -31,7 +31,7 @@ Before you begin, ensure you have the following prerequisites installed on your 
 - AWS Amplify CLI: https://docs.amplify.aws/cli/start/install
   
 ## Getting Started
-Clone this repository to your local machine:
+**Clone this repository to your local machine:**
 
 ```
 git clone https://github.com/yourusername/your-repo.git
@@ -55,13 +55,15 @@ Your Next.js web application should now be accessible at http://localhost:3000.
 ## Figma for UI Design
 I employ Figma as my primary tool for User Interface (UI) design. Figma allows for a collaborative and iterative design process, enabling me to create visually appealing and user-friendly interfaces. During this phase, I focus on crafting a seamless and intuitive user experience.
 
-**Components Section**
-<br>
-<img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/55660117-75e7-4f9e-b03b-3ce5dd0e8995" align=""/>
+For the mock project, I employ stable diffusion, a technique known for generating high-quality and unique imagery. This method enhances the visual appeal of the project by creating distinct and captivating graphics. Once generated, these images are systematically stored within the Figma design platform under a dedicated "Branding" section. This strategic organization not only ensures easy access to the diverse range of visuals but also facilitates seamless integration of these graphics into the overall design, contributing to a cohesive and visually compelling user interface.
 
-**Branding Section**
+**Figma Project Access:** <a href="https://www.figma.com/community/file/1295769074385909986/metaverseofthings">Click Here</a>
 <br>
-<img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/558449c2-1fc3-4154-be69-1286bb12523b"  align=""/>
+<img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/69bd0a61-1f58-4c96-93fe-b68765047fe8" align="" width="80%"/>
+
+**Components Section:** <a href="https://www.figma.com/file/YNY9OgtzXh2M6XRWwwDBSq/MetaverseOfThings-(Community)?type=design&node-id=30-2604&mode=design">Click Here</a>
+<br>
+<img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/55660117-75e7-4f9e-b03b-3ce5dd0e8995" align="" width="80%"/>
 
 
 ## Interface Breakdown
@@ -78,11 +80,19 @@ For efficient and scalable styling, I integrate Tailwind CSS into the project. T
 2. Press Get Started
 3. Press the Frameworks Guide of your specified choice
 4. Finish remainder of steps with CLI
-5. npm install -D tailwindcss postcss autoprefixer
-6. npx tailwindcss init -p
-7. Add necessary code to tailwind.config.js
-8. Add tailwind directives
-9. start your build process
+   
+**For example:**
+
+```
+npm install -D tailwindcss postcss autoprefixer
+```
+
+```
+npx tailwindcss init -p
+```
+6. Add necessary code to tailwind.config.js
+7. Add tailwind directives
+8. start your build process
     
 **Resources**
 1. https://tailwindui.com/components
@@ -99,20 +109,35 @@ To further enhance functionality and streamline development, I incorporate relev
 4. Ensure Node.js and npm are installed:
 5. If Node.js and npm are not installed, make sure to install them first. You can check their presence by running:
 
-**For example:** node -v
+**For example:** 
 
-**For example:** npm -v
+```
+node -v
+```
+
+```
+npm -v
+```
 
 8. If they are not installed, follow the official installation guide to set them up.
 9. Install project dependencies
 10. Run the following command to install the project dependencies
-11. npm install
-12. This command reads the package.json file in your project and installs all the dependencies listed there.
-13. Install additional packages if needed
-14. If your project requires additional packages, install them using the npm install command followed by the package name.
+    
+**For example:**
+
+```
+npm install
+```
+
+11. This command reads the package.json file in your project and installs all the dependencies listed there.
+12. Install additional packages if needed
+13. If your project requires additional packages, install them using the npm install command followed by the package name.
    
 **For example:**
+
+```
 npm install <package-name>
+```
 
 15. Repeat this step for each additional package your project requires.
 16. This adjusted process explicitly includes a check for the presence of Node.js and npm before proceeding with the installation, ensuring a smoother experience for users who might not have these tools installed.
