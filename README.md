@@ -10,15 +10,14 @@ This repository is a demonstration of a modern web application development workf
 4. Figma for UI Design
 5. Interface Breakdown
 6. Component Mapping
-7. ReactJS Implementation
-8. Styling with Tailwind CSS
-9. Utilizing NPM Libraries
-10. Integration with NextJS
-11. Testing and Iteration
-12. Deploy with AWS
-13. Dependencies
-14. Contributing
-15. License
+7. Styling with Tailwind CSS
+8. Utilizing NPM Libraries
+9.  Integration with NextJS
+10. Testing and Iteration
+11. Deploy with AWS
+12. Dependencies
+13. Contributing
+14. License
 
     
 ## Introduction
@@ -56,20 +55,67 @@ Your Next.js web application should now be accessible at http://localhost:3000.
 ## Figma for UI Design
 I employ Figma as my primary tool for User Interface (UI) design. Figma allows for a collaborative and iterative design process, enabling me to create visually appealing and user-friendly interfaces. During this phase, I focus on crafting a seamless and intuitive user experience.
 
+**Components Section**
+<br>
+<img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/55660117-75e7-4f9e-b03b-3ce5dd0e8995" align=""/>
+
+**Branding Section**
+<br>
+<img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/558449c2-1fc3-4154-be69-1286bb12523b"  align=""/>
+
+
 ## Interface Breakdown
 Once the UI design is finalized in Figma, I proceed to break down the overall design into modular components. This involves identifying distinct visual elements and interactive modules that will constitute the UI. Each component is meticulously organized to ensure clarity and reusability.
 
 ## Component Mapping
-The identified UI components are then mapped to their corresponding React.js counterparts. This involves translating the visual representation in Figma into React.js components, establishing a clear relationship between the design and the code.
-
-## ReactJS Implementation
-I leverage React.js for building the dynamic and interactive aspects of the UI. React.js facilitates the creation of reusable components, promoting a modular and maintainable codebase. This ensures that each element of the UI corresponds to a specific React component, enhancing code organization and scalability.
+The identified UI components are then mapped to their corresponding React.js counterparts. This involves translating the visual representation in Figma into React.js components, establishing a clear relationship between the design and the code. I leverage React.js for building the dynamic and interactive aspects of the UI. React.js facilitates the creation of reusable components, promoting a modular and maintainable codebase. This ensures that each element of the UI corresponds to a specific React component, enhancing code organization and scalability.
 
 ## Styling with Tailwind CSS
 For efficient and scalable styling, I integrate Tailwind CSS into the project. Tailwind CSS, with its utility-first approach, enables rapid prototyping and streamlined styling of React components. This framework enhances the development process by providing a comprehensive set of utility classes that can be easily applied to elements.
 
+**Get Started**
+1. Head over to https://tailwindcss.com/
+2. Press Get Started
+3. Press the Frameworks Guide of your specified choice
+4. Finish remainder of steps with CLI
+5. npm install -D tailwindcss postcss autoprefixer
+6. npx tailwindcss init -p
+7. Add necessary code to tailwind.config.js
+8. Add tailwind directives
+9. start your build process
+    
+**Resources**
+1. https://tailwindui.com/components
+2. https://tailwindcomponents.com/components/layout
+3. https://tailwindcss.com/
+
 ## Utilizing NPM Libraries
 To further enhance functionality and streamline development, I incorporate relevant NPM libraries. These libraries, carefully selected to meet specific project requirements, contribute to the overall efficiency and extensibility of the application.
+
+**Get Started**
+1. Open your project's terminal.
+2. Open the terminal specifically for your project.
+3. If it's not already open, navigate to your project folder using the terminal.
+4. Ensure Node.js and npm are installed:
+5. If Node.js and npm are not installed, make sure to install them first. You can check their presence by running:
+
+**For example:** node -v
+
+**For example:** npm -v
+
+8. If they are not installed, follow the official installation guide to set them up.
+9. Install project dependencies
+10. Run the following command to install the project dependencies
+11. npm install
+12. This command reads the package.json file in your project and installs all the dependencies listed there.
+13. Install additional packages if needed
+14. If your project requires additional packages, install them using the npm install command followed by the package name.
+   
+**For example:**
+npm install <package-name>
+
+15. Repeat this step for each additional package your project requires.
+16. This adjusted process explicitly includes a check for the presence of Node.js and npm before proceeding with the installation, ensuring a smoother experience for users who might not have these tools installed.
 
 ## Integration with NextJS
 To optimize the performance and maintainability of the application, I utilize Next.js as the framework for React.js. Next.js enhances the React.js development experience by providing server-side rendering, automatic code splitting, and simplified routing. This integration further streamlines the development process and enhances the overall performance of the application.
