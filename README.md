@@ -4,15 +4,23 @@ Figma to Next.js with AWS Amplify Deployment
 This repository is a demonstration of a modern web application development workflow that leverages Figma for UI/UX design, Next.js as the web framework, and AWS Amplify for easy deployment to the cloud. By following this project, you can learn how to seamlessly transition from design to development and deploy your web applications on AWS.
 
 ## Table of Contents
-1. Introduction
+1. Introduction 
 2. Prerequisites
 3. Getting Started
-4. Design with Figma
-5. Develop with Next.js
-6. AWS Amplify Deployment
-7. Dependencies
-8. Contributing
-9. License
+4. Figma for UI Design
+5. Interface Breakdown
+6. Component Mapping
+7. ReactJS Implementation
+8. Styling with Tailwind CSS
+9. Utilizing NPM Libraries
+10. Integration with NextJS
+11. Testing and Iteration
+12. Deploy with AWS
+13. Dependencies
+14. Contributing
+15. License
+
+    
 ## Introduction
 The goal of this project is to improve your skills in designing web applications or sites before diving into development. It guides you through the process of transitioning from a Figma design to a functional web application using Next.js and deploying it on AWS Amplify.
 
