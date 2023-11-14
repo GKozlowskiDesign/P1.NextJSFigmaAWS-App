@@ -4,15 +4,15 @@ Figma to Next.js with AWS Amplify Deployment
 This repository is a demonstration of a modern web application development workflow that leverages Figma for UI/UX design, Next.js as the web framework, and AWS Amplify for easy deployment to the cloud. By following this project, you can learn how to seamlessly transition from design to development and deploy your web applications on AWS.
 
 ## Table of Contents
-Introduction
-Prerequisites
-Getting Started
-Design with Figma
-Develop with Next.js
-AWS Amplify Deployment
-Dependencies
-Contributing
-License
+1. Introduction
+2. Prerequisites
+3. Getting Started
+4. Design with Figma
+5. Develop with Next.js
+6. AWS Amplify Deployment
+7. Dependencies
+8. Contributing
+9. License
 ## Introduction
 The goal of this project is to improve your skills in designing web applications or sites before diving into development. It guides you through the process of transitioning from a Figma design to a functional web application using Next.js and deploying it on AWS Amplify.
 
@@ -20,7 +20,6 @@ The goal of this project is to improve your skills in designing web applications
 Before you begin, ensure you have the following prerequisites installed on your system:
 
 - Node.js: https://nodejs.org/
-- Yarn: https://yarnpkg.com/
 - Figma Account: https://www.figma.com/
 - AWS Amplify CLI: https://docs.amplify.aws/cli/start/install
   
@@ -48,22 +47,37 @@ Your Next.js web application should now be accessible at http://localhost:3000.
 ## Design with Figma
 Use Figma to create your UI/UX design. This project provides a smooth transition from Figma designs to actual development. Import your Figma designs as needed.
 
-<img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/32298a76-2c30-457d-ab3f-5ee2572fa01a" width="30%" align="left" />
-
-
 
 ## Develop with Next.js
 Next.js is used as the web framework for this project. You can write your React components and add functionality as needed. Customize the project to match your Figma design.
 
 
-**Finished Product:**
+
+**Designed:**
+<br>
+<img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/32298a76-2c30-457d-ab3f-5ee2572fa01a" width="30%" align="left" />
+
+
+**Developed:**
+<br>
 <img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/acbc2d9d-a1e0-4614-b84d-9223acc2064b" width="30%" align="left" />
+
+
+**Optimized:**
+<br>
+<img src="https://github.com/GKozlowskiDesign/Project_NextJSFigmaAWS_Part1/assets/82541715/68491db5-ab79-4708-919c-00515d823a77" width="30%" align="center" />
+
+<br>
+<br>
+<br>
+<br>
 
 
 ## Deploy with AWS
 This section provides an overview of our Continuous Integration and Continuous Deployment (CI/CD) process, which seamlessly integrates local development using Visual Studio Code (VSCode) with AWS services like AWS CloudFront, AWS Amplify, and AWS S3 to automatically deploy updates to our site as soon as code is pushed to GitHub.
 
 Our CI/CD process is designed to streamline development, testing, and deployment, ensuring that new changes and features are quickly and reliably delivered to our site without manual intervention. 
+
 
 #### Here's how it works:
 
@@ -79,6 +93,8 @@ Our CI/CD process is designed to streamline development, testing, and deployment
 
 **6. Automatic Deployment:** Amplify deploys the updated code to AWS S3 and CloudFront, ensuring that our site is always up to date. The process is automatic and eliminates the need for manual deployment, saving time and reducing the risk of errors.
 
+<br>
+<br>
 
 #### Our CI/CD process offers several benefits:
 
