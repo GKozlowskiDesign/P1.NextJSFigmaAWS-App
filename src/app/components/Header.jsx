@@ -32,7 +32,7 @@ export default function Header() {
 
   return (
       <div name="header" className="grid grid-cols-3 w-full">
-      <Navbar className="w-screen max-h-full p-6" onMenuOpenChange={setIsMenuOpen} maxWidth="full">
+      <Navbar className="w-screen max-h-full p-6 bg-black" onMenuOpenChange={setIsMenuOpen} maxWidth="full">
 
       <div className="cols-span-1 grid justify-items-start">
       <NavbarContent>
@@ -50,11 +50,7 @@ export default function Header() {
 
         
       </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
-      </NavbarContent>
+
       <NavbarMenu className="w-full mt-14 bg-indigo-90 rounded-md">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
@@ -62,7 +58,7 @@ export default function Header() {
               color={
                 index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
               }
-              className="w-full text-black"
+              className="w-full text-green-400"
               href="#"
               size="full"
             >
