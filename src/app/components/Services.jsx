@@ -3,10 +3,10 @@ import React from "react";
 const Services = () => {
   return (
         <section className="bg-transparent">
-                <div id="services" className='flex flex-col w-full pt-20 pb-20 md:pb-10 border-t-4 border-black  mt-10  rounded-t-3xl  bg-gradient-to-b from-green-600 via-green-500 to-black shadow-xl'>
-                    <div className="pt-10 pb-10 grid grid-cols-2">
+                <div id="services" className='flex flex-col w-full pt-20 pb-20 md:pb-10 border-t-4 border-black  mt-4  bg-gradient-to-b from-green-600 via-green-500 to-black shadow-xl'>
+                    <div className="pt-10 pb-10 grid grid-cols-1 md:grid-cols-2">
                         <div className='justify-center items-center flex'>
-                        <h1 className="text-4xl md:text-7xl font-semibold justify-center flex pl-20 text-white">
+                        <h1 className="text-4xl md:text-6xl font-semibold justify-center flex pl-20 text-white bg-gradient-to-tl from-gray-800 to-gray-900 rounded-r-3xl p-10 border-t-4 border-black">
                                 Powerful Web3 PaaS LaunchPad Tooling</h1>
                         </div>
 
@@ -26,7 +26,7 @@ const Services = () => {
 
               
                   
-                    <div className='grid grid-cols-2'>
+                    <div className='grid grid-cols-1 md:grid-cols-2'>
 
                     <div  className="col-span-1 justify-center items-center  flex  ">
                           <section className="md:visible w-8/12 md:w-10/12 justify-center">
@@ -44,108 +44,108 @@ const Services = () => {
                          <div class="p-2 pt-4 pb-6 overflow-hidden shadow-2xl items-center justify-center flex border-t-4 border-r-2 border-2 bg-green-400 hover:bg-green-600 cursor-pointer border-black rounded-2xl">
                             <div>
                             <Image
-                                className='mx-auto pt-1 w-1/3 ml-6'
+                                className='mx-auto pt-1 w-1/3 md:ml-6 flex justify-center'
                                 width='100'
                                 height='100'
                                 src="/assets/Bug.png"
                                 alt="Bug Icon"
                             />
-                            <h1 className='text-3xl mx-auto ml-6 pb-1 text-black font-semibold'>Security</h1>
-                            <p className='text-sm flex mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <h1 className='text-xl md:text-3xl mx-auto md:ml-6 pb-1 text-black font-semibold flex justify-center md:flex-none md:justify-start'>Analytics</h1>
+                            <p className='hidden md:text-sm md:block mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                             </div>
                             
                             <div class="p-2 pt-4 pb-6 overflow-hidden shadow-2xl items-center justify-center flex border-t-4 border-r-2 border-2 bg-green-400 hover:bg-green-600 cursor-pointer border-black rounded-2xl">
                             <div>
                             <Image
-                                className='mx-auto pt-1 w-1/3 ml-6'
+                                className='mx-auto pt-1 w-1/3 md:ml-6 flex justify-center'
                                 width='100'
                                 height='100'
                                 src="/assets/Bug.png"
                                 alt="Bug Icon"
                             />
-                            <h1 className='text-3xl mx-auto ml-6 pb-1 text-indigo-900 font-semibold'>Security</h1>
-                            <p className='text-sm flex mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <h1 className='text-xl md:text-3xl mx-auto md:ml-6 pb-1 text-black font-semibold flex justify-center md:flex-none md:justify-start'>Application</h1>
+                            <p className='hidden md:text-sm md:block mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                             </div>
                             
                             <div class="p-2 pt-4 pb-6 overflow-hidden shadow-2xl items-center justify-center flex border-t-4 border-r-2 border-2 bg-green-400 hover:bg-green-600 cursor-pointer border-black rounded-2xl">
                             <div>
                             <Image
-                                className='mx-auto pt-1 w-1/3 ml-6'
+                                className='mx-auto pt-1 w-1/3 md:ml-6 flex justify-center'
                                 width='100'
                                 height='100'
                                 src="/assets/Bug.png"
                                 alt="Bug Icon"
                             />
-                           <h1 className='text-3xl mx-auto ml-6 pb-1 text-indigo-900 font-semibold'>Security</h1>
-                            <p className='text-sm flex mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                           <h1 className='text-xl md:text-3xl mx-auto md:ml-6 pb-1 text-black font-semibold flex justify-center md:flex-none md:justify-start'>Business</h1>
+                           <p className='hidden md:text-sm md:block mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                             </div>
                             
                             <div class="p-2 pt-4 pb-6 overflow-hidden shadow-2xl items-center justify-center flex border-t-4 border-r-2 border-2 bg-green-400 hover:bg-green-600 cursor-pointer border-black rounded-2xl">
                             <div>
                             <Image
-                                className='mx-auto pt-1 w-1/3 ml-6'
+                                className='mx-auto pt-1 w-1/3 md:ml-6 flex justify-center'
                                 width='100'
                                 height='100'
                                 src="/assets/Bug.png"
                                 alt="Bug Icon"
                             />
-                            <h1 className='text-3xl mx-auto ml-6 pb-1 text-indigo-900 font-semibold'>Security</h1>
-                            <p className='text-sm flex mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <h1 className='text-xl md:text-3xl mx-auto md:ml-6 pb-1 text-black font-semibold flex justify-center md:flex-none md:justify-start'>Compute</h1>
+                            <p className='hidden md:text-sm md:block mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                             </div>
                             <div class="p-2 pt-4 pb-6 overflow-hidden shadow-2xl items-center justify-center flex border-t-4 border-r-2 border-2 bg-green-400 hover:bg-green-600 cursor-pointer border-black rounded-2xl">
                             <div>
                             <Image
-                                className='mx-auto pt-1 w-1/3 ml-6'
+                                className='mx-auto pt-1 w-1/3 md:ml-6 flex justify-center'
                                 width='100'
                                 height='100'
                                 src="/assets/Bug.png"
                                 alt="Bug Icon"
                             />
-                            <h1 className='text-3xl mx-auto ml-6 pb-1 text-indigo-900 font-semibold'>Security</h1>
-                            <p className='text-sm flex mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <h1 className='text-xl md:text-3xl mx-auto md:ml-6 pb-1 text-black font-semibold flex justify-center md:flex-none md:justify-start'>Database</h1>
+                            <p className='hidden md:text-sm md:block mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                             </div>
                             <div class="p-2 pt-4 pb-6 overflow-hidden shadow-2xl items-center justify-center flex border-t-4 border-r-2 border-2 bg-green-400 hover:bg-green-600 cursor-pointer border-black rounded-2xl">
                             <div>
                             <Image
-                                className='mx-auto pt-1 w-1/3 ml-6'
+                                className='mx-auto pt-1 w-1/3 md:ml-6 flex justify-center'
                                 width='100'
                                 height='100'
                                 src="/assets/Bug.png"
                                 alt="Bug Icon"
                             />
-                           <h1 className='text-3xl mx-auto ml-6 pb-1 text-indigo-900 font-semibold'>Security</h1>
-                            <p className='text-sm flex mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                           <h1 className='text-xl md:text-3xl mx-auto md:ml-6 pb-1 text-black font-semibold flex justify-center md:flex-none md:justify-start'>IoT</h1>
+                           <p className='hidden md:text-sm md:block mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                             </div>
                             <div class="p-2 pt-4 pb-6 overflow-hidden shadow-2xl items-center justify-center flex border-t-4 border-r-2 border-2 bg-green-400 hover:bg-green-600 cursor-pointer border-black rounded-2xl">
                             <div>
                             <Image
-                                className='mx-auto pt-1 w-1/3 ml-6'
+                                className='mx-auto pt-1 w-1/3 md:ml-6 flex justify-center'
                                 width='100'
                                 height='100'
                                 src="/assets/Bug.png"
                                 alt="Bug Icon"
                             />
-                             <h1 className='text-3xl mx-auto ml-6 pb-1 text-indigo-900 font-semibold'>Security</h1>
-                            <p className='text-sm flex mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                             <h1 className='text-xl md:text-3xl mx-auto md:ml-6 pb-1 text-black font-semibold flex justify-center md:flex-none md:justify-start'>Migration</h1>
+                             <p className='hidden md:text-sm md:block mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                             </div>
                             <div class="p-2 pt-4 pb-6 overflow-hidden shadow-2xl items-center justify-center flex border-t-4 border-r-2 border-2 bg-green-400 hover:bg-green-600 cursor-pointer border-black rounded-2xl">
                             <div>
                             <Image
-                                className='mx-auto pt-1 w-1/3 ml-6'
+                                className='mx-auto pt-1 w-1/3 md:ml-6 flex justify-center'
                                 width='100'
                                 height='100'
                                 src="/assets/Bug.png"
                                 alt="Bug Icon"
                             />
-                            <h1 className='text-3xl mx-auto ml-6 pb-1 text-indigo-900 font-semibold'>Security</h1>
-                            <p className='text-sm flex mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <h1 className='text-xl md:text-3xl mx-auto md:ml-6 pb-1 text-black font-semibold flex justify-center md:flex-none md:justify-start'>Security</h1>
+                            <p className='hidden md:text-sm md:block mx-auto ml-6 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                             </div>
                     </div>

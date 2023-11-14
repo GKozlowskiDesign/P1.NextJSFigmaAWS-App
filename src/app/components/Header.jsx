@@ -32,7 +32,7 @@ export default function Header() {
 
   return (
       <div name="header" className="grid grid-cols-3 w-full">
-      <Navbar className="w-screen max-h-full p-6 bg-black" onMenuOpenChange={setIsMenuOpen} maxWidth="full">
+      <Navbar className="w-screen max-h-full p-6 bg-black text-white" onMenuOpenChange={setIsMenuOpen} maxWidth="full">
 
       <div className="cols-span-1 grid justify-items-start">
       <NavbarContent>
@@ -58,7 +58,7 @@ export default function Header() {
               color={
                 index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
               }
-              className="w-full text-green-400"
+              className="w-full text-white ml-10 font-semibold"
               href="#"
               size="full"
             >

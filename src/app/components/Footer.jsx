@@ -8,9 +8,9 @@ const Footer = () => {
     return (
         
       <footer name="footer" className="bg-black text-white py-2 pt-64 rounded-t-3xl">
-        <div className="container mx-auto flex justify-between items-center mb-40 p-10 rounded-3xl bg-transparent border-4 border-gray-800">
+        <div className="container mx-auto flex justify-between items-center mb-40 p-10 rounded-3xl bg-transparent md:border-4 border-gray-800">
           <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-4">
-            <h2 className="text-xl font-mono text-green-400">Company</h2>
+            <h2 className="text-lg md:text-xl font-mono text-green-400">Company</h2>
             <ul className="mt-2">
               <li className="mb-2"><a className="hover:text-violet-400 text-sm hover:font-bold" href="#">About Us</a></li>
               <li className="mb-2"><a className="hover:text-violet-400 text-sm hover:font-bold" href="#">Careers</a></li>
@@ -20,7 +20,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-4">
-            <h2 className="text-xl font-mono text-green-400">Resources</h2>
+            <h2 className="text-lg md:text-xl font-mono text-green-400">Resources</h2>
             <ul className="mt-2">
               <li className="mb-2"><a className="hover:text-violet-400 text-sm hover:font-bold" href="#">Docs</a></li>
               <li className="mb-2"><a className="hover:text-violet-400 text-sm hover:font-bold" href="#">API</a></li>
@@ -30,7 +30,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-4">
-            <h2 className="text-xl font-mono text-green-400">Community</h2>
+            <h2 className="text-lg md:text-xl font-mono text-green-400">Community</h2>
             <ul className="mt-2">
               <li className="mb-2"><a className="hover:text-violet-400 text-sm hover:font-bold" href="#">Forums</a></li>
               <li className="mb-2"><a className="hover:text-violet-400 text-sm hover:font-bold" href="#">Partners</a></li>
