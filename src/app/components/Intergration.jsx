@@ -20,8 +20,8 @@ const Integration = () => {
                     class="w-full  flex-nowrap overflow-hidden inline-flex justify-center items-center  [mask-image:_linear-gradient(to_right,transparent_0,_black_100px,_black_calc(100%-100px),transparent_100%)]"
                 >
                 
-                <ul x-ref="logos" class="flex items-center justify-center md:justify-end [&_li]:mx-8 [&_img]:max-w-xs  bg-green-400 border-2  border-indigo-600 animate-infinite-scroll p-6">
-                    <li className="p-0">
+                <ul x-ref="logos" class="flex items-center justify-center md:justify-end [&_li]:mx-10 [&_img]:max-w-xs  bg-green-400  animate-infinite-scroll p-1">
+                    <li>
                         <img src="../assets/Solana.png" className="mx-auto" alt="Facebook" />
                     </li>
                     <li>

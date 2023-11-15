@@ -23,11 +23,9 @@ export default function Home() {
       <div>
         <div>
           <About />
-          <Services />
-
-          <Developers />
           <Integration />
-
+          <Services />
+          <Developers />
           <Footer />
         </div>
       </div>
