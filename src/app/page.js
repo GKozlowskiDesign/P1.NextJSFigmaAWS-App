@@ -11,7 +11,7 @@ import { Inter } from 'next/font/google';
 
 export default function Home() {
   return (
-    <div className="w-full overflow-hidden bg-black pt-2">
+    <div className="w-full overflow-hidden pt-2">
       <div>
       <Header />
       </div>

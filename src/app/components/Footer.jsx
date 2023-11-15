@@ -7,13 +7,13 @@ import { Link } from "react-scroll";
 const Footer = () => {
     return (
         
-      <footer name="footer" className="bg-gradient-to-tl from-gray-900 to-black border-t-2 border-gray-600 text-white py-2 pt-24 rounded-t-3xl">
+      <footer name="footer" className="bg-gradient-to-tl from-gray-900 to-black border-t-2 border-gray-600 text-white py-2 pt-24">
             <section class="bg-transparent">
                 <div
                       class="max-w-lg bg-transparent px-4 pt-24 py-8 mx-auto text-left md:max-w-none md:text-center"
                     >
                       <h1
-                        class="text-3xl font-extrabold leading-10 tracking-tight text-left text-white text-center sm:leading-none md:text-6xl text-4xl lg:text-7xl"
+                        class="text-3xl font-extrabold leading-10 tracking-tight text-white text-center sm:leading-none md:text-6xl lg:text-7xl"
                       >
                         <span class="inline md:block pb-2">Join Us</span>
 

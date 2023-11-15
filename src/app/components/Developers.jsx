@@ -22,7 +22,7 @@ const Developers = () => {
  
      <section>
         
-         <div className="p-4 w-12/12 pb-20 mt- md:mt-40  rounded-br-3xl rounded-tr-3xl mb-16 bg-gradient-to-b from-black via-gray-900 to-black">
+         <div className="p-10 w-12/12 pb-20 bg-gradient-to-b from-black via-gray-900 to-black">
                  <h1 className="text-4xl lg:text-5xl text-white font-semibold p-6 justify-center flex">Frequently Asked Questions</h1>
                 <div className='cols-span-1 p-6 w-12/12 mx-auto'>
                <Accordion variant="splitted font-mono" itemClasses={itemClasses}>

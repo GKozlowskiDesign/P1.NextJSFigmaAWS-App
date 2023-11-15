@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from "react-scroll";
 const Hero = () => {
   return (
-        <div name="hero" className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 items-center h-screen md:h-full md:pt-0 rounded-tr-3xl bg-black w-12/12 mb-0 md:mb-10">
+        <div name="hero" className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 items-center h-screen md:h-full md:pt-0 bg-black w-12/12 mb-0">
                         <div className="grid grid-cols-1 md:grid-cols-2 "> 
                             <div className="cols-span-1 justify-left pb-4 pt-4 md:mb-20 md:mt-10 bg-transparent  w-full ">
                                             <div className="w-full md:w-3/3 mx-auto p-2">
@@ -40,29 +40,29 @@ const Hero = () => {
                       <div className="grid grid-cols-2 md:grid-cols-4 pt-4 pb-1">
                         <div className="cols-span-1 items-center justify-center flex">
                         <div>
-                          <h1 className="text-2xl md:text-4xl text-white justify-center flex">22,918</h1>
-                          <p className="pt-1 font-semibold text-green-400 justify-center flex">Devices</p>
+                          <h1 className="text-2xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-400 justify-center flex">100<span className="text-2xl md:text-5xl md:pt-2">K</span>+</h1>
+                          <p className="pt-1 font-semibold text-gray-500 justify-center flex">Devices</p>
                           </div>
                         </div>
                         
                         <div className="cols-span-1 items-center justify-center flex">
                         <div>
-                          <h1 className="text-2xl md:text-4xl text-white justify-center flex">70,481,232</h1>
-                          <p className="pt-1 font-semibold text-green-400 justify-center flex">Transactions</p>
+                        <h1 className="text-2xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-violet-400 to-indigo-400 justify-center flex">70<span className="text-2xl md:text-5xl md:pt-2">M</span>+</h1>
+                        <p className="pt-1 font-semibold text-gray-500 justify-center flex">Transactions</p>
                         </div>
                         </div>
 
                         <div className="cols-span-1 items-center justify-center flex">
                           <div>
-                          <h1 className="text-2xl md:text-4xl text-white justify-center flex">200k+</h1>
-                          <p1 className="pt-1 font-semibold text-green-400 justify-center flex">Community</p1>
+                          <h1 className="text-2xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-green-400 justify-center flex">200<span className="text-2xl md:text-5xl md:pt-2">K</span>+</h1>
+                          <p className="pt-1 font-semibold text-gray-500 justify-center flex">Community</p>
                           </div>
                         </div>
 
                         <div className="cols-span-1 items-center justify-center flex">
                         <div>
-                          <h1 className="text-2xl md:text-4xl text-white justify-center flex">48,900</h1>
-                          <p className="pt-1 font-semibold text-green-400 justify-center flex">Stakers</p>
+                        <h1 className="text-2xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-400 justify-center flex">50<span className="text-2xl md:text-5xl md:pt-2">K</span>+</h1>
+                        <p className="pt-1 font-semibold text-gray-500 justify-center flex">Stakers</p>
                           </div>
                         </div>
 
