@@ -2,8 +2,6 @@ import Hero from './components/Hero';
 import Header from './components/Header';
 import Services from './components/Services'
 import About from './components/About';
-import Developers from './components/Developers'
-import Integration from './components/Intergration'
 import Footer from './components/Footer';
 import Hiring from './components/Hiring';
 
