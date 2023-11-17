@@ -1,5 +1,5 @@
 // RootLayout.js
-import '/Users/gkozlowski/Desktop/MVOT/part-1/src/app/globals.css'
+import '/globals.css'
 
 
 export default function RootLayout({ children }) {
@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Include the font styles in the head of your HTML */}
-        <link rel="stylesheet" href="/path/to/your/globals.css" />
+        <link rel="stylesheet" href="/globals.css" />
       </head>
       <body>
         {children}
