@@ -5,13 +5,14 @@ import About from './components/About';
 import Developers from './components/Developers'
 import Integration from './components/Intergration'
 import Footer from './components/Footer';
-import { Inter } from 'next/font/google';
+import Hiring from './components/Hiring';
 
 
 
 export default function Home() {
   return (
-    <div className="w-full overflow-hidden pt-2">
+    <div className="w-full overflow-hidden bg-transparent">
+      <div className='h-2 bg-green-400'></div>
       <div>
       <Header />
       </div>
@@ -23,9 +24,8 @@ export default function Home() {
       <div>
         <div>
           <About />
-          <Integration />
           <Services />
-          <Developers />
+          <Hiring />
           <Footer />
         </div>
       </div>

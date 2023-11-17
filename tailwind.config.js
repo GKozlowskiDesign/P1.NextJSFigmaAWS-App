@@ -10,6 +10,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'monument-extended': ['MonumentExtended', 'sans-serif'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
