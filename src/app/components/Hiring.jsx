@@ -4,8 +4,8 @@
 import React from "react";
 const Hiring = () => {
     return (
-<section class="w-11/12 justify-center items-center mx-auto pb-10 pt-10">
-    <div className="bg-black border-t-2 border-gray-600 text-white py-2 pt-10 rounded-3xl shadow-2xl shadow-gray-900">
+<section class="w-full justify-center items-center mx-auto pb-10 pt-10 bg-indigo-900">
+    <div className="bg-black border-t-2 border-gray-600 text-white py-2 pt-10 rounded-3xl shadow-2xl shadow-gray-900 w-10/12 mx-auto">
         <div class="w-full bg-transparent px-4 pt-4 py-8 mx-auto text-left md:max-w-none md:text-center">
         <h1 class="text-2xl font-extrabold leading-10 tracking-tight text-white text-center sm:leading-none md:text-5xl">
             <span class="inline md:block pb-2 font-monument-extended">Join Us</span>

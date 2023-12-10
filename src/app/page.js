@@ -4,6 +4,7 @@ import Services from './components/Services'
 import About from './components/About';
 import Footer from './components/Footer';
 import Hiring from './components/Hiring';
+import Community from './components/Communiity';
 
 
 
@@ -23,8 +24,7 @@ export default function Home() {
         <div>
           <About />
           <Services />
-          <Hiring />
-          <Footer />
+          <Community />
         </div>
       </div>
     </div>
