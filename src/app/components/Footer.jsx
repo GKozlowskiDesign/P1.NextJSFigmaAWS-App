@@ -11,7 +11,7 @@ const Footer = () => {
            
             
             <div class="bg-black pb-4 rounded-t-3xl shadow-2xl">
-                <div class="max-w-screen-xl px-4 pt-8 mx-auto sm:px-6 lg:px-8">
+                <div class="w-full px-4 pt-8 mx-auto sm:px-6 lg:px-8">
                   <div class="sm:flex sm:items-center sm:justify-between">
                     <div class="flex justify-center text-teal-300 sm:justify-start">
                     </div>

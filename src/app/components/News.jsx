@@ -6,7 +6,7 @@ import { data } from './../../mockData';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 
 
-const Services = () => {
+const News = () => {
 
     const slideLeft = () => {
       var slider = document.getElementById('slider');
@@ -20,12 +20,12 @@ const Services = () => {
   
     return (
       <>
-     <div className="w-full h-42 overflow-y-scroll no-scrollbar">
-     <div className='relative flex items-center p-20 bg-black pt-40 pb-80'>
+     
+        <div className='relative flex items-center p-20 pb-60 bg-black'>
           <MdChevronLeft className='opacity-60 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
           <div
             id='slider'
-            className='w-full h-full overflow-x-auto scroll whitespace-nowrap scroll-smooth scrollbar-hidden '
+            className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hidden '
           >
             {data.map((item) => (
               <img
@@ -37,9 +37,6 @@ const Services = () => {
           </div>
           <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
         </div>
-     </div>
-
-
       </>
     );
   }
@@ -52,4 +49,4 @@ const Services = () => {
    
   
   
-  export default Services;
+  export default News;
